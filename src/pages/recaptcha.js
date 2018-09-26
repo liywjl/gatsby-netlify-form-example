@@ -2,7 +2,7 @@ import React from "react";
 import { navigateTo } from "gatsby-link";
 import Recaptcha from "react-google-recaptcha";
 
-const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY;
+const RECAPTCHA_KEY = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 
 function encode(data) {
   return Object.keys(data)
